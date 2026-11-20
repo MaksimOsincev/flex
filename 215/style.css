@@ -3,9 +3,9 @@ div {
     width: 650px;
     border: 1px solid red;
     display: flex;
-    flex-direction: column-reverse;      
+    flex-direction: row;      
     align-items: flex-end;     
-    justify-content: space-between ; 
+    justify-content: space-around ; 
     margin: 100px auto;
     
 }
