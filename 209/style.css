@@ -3,8 +3,8 @@ div{
     width: 650px;
     border: 1px solid red;
     display: flex;
-    flex-direction:row;
-    justify-content: end;
+    flex-direction:column;
+    justify-content: flex-end;
 }
 #c1{
 width: 90px;
