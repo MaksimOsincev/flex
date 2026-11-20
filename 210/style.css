@@ -3,7 +3,7 @@ div{
     width: 650px;
     border: 1px solid red;
     display: flex;
-	flex-direction: column-reverse;        
+	flex-direction: row;        
 	justify-content: flex-start; 
 	align-items:     flex-end; 
 
