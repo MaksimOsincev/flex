@@ -1,0 +1,33 @@
+div {
+    height: 350px;
+    width: 650px;
+    border: 1px solid red;
+    display: flex;
+    flex-direction: row;      
+    align-items: center;     
+    justify-content: flex-start; 
+    margin: 100px auto;
+}
+#c1 {
+    width: 90px;             
+    height: 50px;           
+    border: 1px solid green;
+    box-sizing: border-box;
+    margin: 0;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end; 
+    align-items: flex-start;                  
+}
+#c3{
+    width: 90px;
+    height: 50px;
+    border: 1px solid green;
+    box-sizing: border-box;
+    margin: 0;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    align-items: flex-start;
+    align-self: self-end;
+}
